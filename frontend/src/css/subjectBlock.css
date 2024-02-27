@@ -1,0 +1,30 @@
+.subject-div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 100px 1fr;
+    align-content: center;
+    /*grid-gap: 10px;*/
+    width: auto;
+    height: 100px;
+    background-color: #274193;
+    padding: 0 30px;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+.subject-info {
+    display: grid;
+    align-items: center;
+
+}
+
+.subject-div:hover {
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, .2);
+}
+
+.subject-div:active {
+    background-color: #4662BB;
+}

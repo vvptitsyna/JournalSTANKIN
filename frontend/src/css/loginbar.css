@@ -1,0 +1,21 @@
+.auth-form {
+    display: grid;
+    width: 70%;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.active-login {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.login-h1 {
+    margin-bottom: 5%;
+    color: #8B8B8B;
+}

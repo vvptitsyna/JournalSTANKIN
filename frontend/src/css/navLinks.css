@@ -1,0 +1,16 @@
+.navLinks {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    justify-self: start;
+}
+
+.navLinks a {
+    color: #274193;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.navLinks a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+.semesters {
+    grid-area: semesters;
+    padding: 2% 0;
+    margin: 0 5%;
+    border-bottom: #C8D3F3 1px solid;
+    box-sizing: border-box;
+}
+
+.semester-btn {
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.wrapper-slider {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+}
+.slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px; /* отступ между элементами */
+    overflow-x: auto; /* добавляем скролл, если элементов слишком много */
+    scrollbar-width: none; /* убираем стандартный скроллбар */
+    -ms-overflow-style: none; /* убираем стандартный скроллбар в IE11 */
+}
+
+.slick-track::-webkit-scrollbar {
+    display: none; /* убираем скроллбар в Webkit браузерах (Chrome, Safari) */
+}
+
+.slick-slide {
+    width: 250px;
+    height: 70px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4662BB;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.slick-prev:before {
+    content: "<";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.slick-next:before {
+    content: ">";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.custom-prev-button{
+}

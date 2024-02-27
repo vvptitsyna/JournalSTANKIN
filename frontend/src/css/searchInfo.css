@@ -1,0 +1,5 @@
+.info-block {
+    grid-area: main-info;
+    background-color:red;
+    margin: 2% calc(10% + 20px)
+}

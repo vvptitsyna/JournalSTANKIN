@@ -1,0 +1,4 @@
+.common-main {
+    grid-area: main;
+    margin: 2% calc(5% + 20px)
+}

@@ -1,0 +1,11 @@
+.profile-nav {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-self: end;
+    color: #385072 !important;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}

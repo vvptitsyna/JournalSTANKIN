@@ -1,0 +1,36 @@
+.wrapper-version {
+    display: grid;
+    grid-template: 0.1fr 1fr 0.1fr / 1fr;
+    grid-template-areas:
+    "navigation"
+    "main-version"
+    "bottom";
+    width: 100%;
+    height: 100%;
+    color: #274193;
+}
+.version {
+    grid-area: main-version;
+    display: grid;
+    grid-template: 0.3fr 1fr /1fr 1.5fr 1fr;
+    grid-template-areas:
+    "ver-info ver-info ver-info"
+    "change list change-sub";
+    margin: 2% 2%;
+    gap: 1%;
+    min-height: 0;
+}
+
+.versionInfo {
+    grid-area: ver-info;
+    background-color: #274193;
+    border-radius: 10px;
+    color:white;
+    display: grid;
+    padding: 2%;
+    grid-gap:10px;
+}
+.version .wrapper-add {
+    grid-area: change-sub;
+
+}

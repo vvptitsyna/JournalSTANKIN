@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table__row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    height: 30px;
+}
+.table__row --header {
+     font-weight: bold;
+ }
+
+
+.table__cell {
+    border: 1px solid #999;
+    width: 200px;
+}
+.table__cell input {
+    border: none;
+    width: 90%;
+    height: 26px;
+}
+input:focus {
+     outline: none;
+ }
+
+p.no-value {
+    color: gray;
+}

@@ -1,0 +1,17 @@
+.carousel-wrapper {
+    height: 70px;
+}
+
+.window {
+    height: 100%;
+}
+.all-items {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    grid-gap: 20px;
+    justify-items: start;
+    align-items: center;
+    border-bottom: #C8D3F3 1px solid;
+    width: 100%;
+}

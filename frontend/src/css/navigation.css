@@ -1,0 +1,11 @@
+.navigation-bar {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 0.1fr 1fr 1fr;
+    grid-auto-flow: column;
+    justify-items: stretch;
+    align-items: center;
+    grid-area: navigation;
+    padding: 0 2%;
+    border-bottom: #C8D3F3 1px solid;
+}

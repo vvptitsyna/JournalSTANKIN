@@ -1,0 +1,11 @@
+﻿global using JournalAPI.Models.GroupModels;
+global using JournalAPI.Models.MarkModels;
+global using JournalAPI.Models.SemesterModels;
+global using JournalAPI.Models.StudentModels;
+global using JournalAPI.Models.SubjectModels;
+global using JournalAPI.Models.UserModels;
+global using JournalAPI.Models.RelationModels;
+global using JournalAPI.Models.Logging;
+global using JournalAPI.Services.Interfaces;
+global using JournalAPI.Services.Implementations;
+global using JournalAPI.Database;

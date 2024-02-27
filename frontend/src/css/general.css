@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body,html {
+    height:100%;
+    margin: 0;
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #274193;
+}
+
+a:visited {
+    color: #4662BB;
+}
+
+a:hover {
+    text-decoration: underline;
+}

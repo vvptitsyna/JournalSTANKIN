@@ -1,0 +1,22 @@
+.btn {
+    background-color: #274193;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    font: 1.5em 'Rubik','Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.disabled {
+    background-color: #8B8B8B;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, .2);
+}
+.btn:active {
+    background-color: #4662BB;
+}
